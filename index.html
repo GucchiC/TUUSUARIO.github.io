@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOS | Viaje Sensorial</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particles Background -->
+    <div id="particles"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="logo">ECOS</a>
+            <ul class="nav-links" id="primary-nav">
+                <li><a href="#works">Obra</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Técnica</a></li>
+                <li><a href="#contact">Visita</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Menú" aria-controls="primary-nav" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero-main.png" alt="ECOS Instalación">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="char">E</span><span class="char">C</span><span class="char">O</span><span class="char">S</span>
+            </h1>
+            <p class="hero-subtitle">Viaje Sensorial</p>
+            <p class="hero-label">Instalación Inmersiva | Sonido | Naturaleza</p>
+        </div>
+        <div class="hero-copyright">© 2026 Gustavo Correa</div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images">
+                    <div class="about-img-main">
+                        <img src="images/ecos014.png" alt="Interior del túnel">
+                    </div>
+                    <div class="about-img-secondary">
+                        <img src="images/ecos012.png" alt="Detalle técnico">
+                    </div>
+                </div>
+                <div class="about-content">
+                    <h2 class="section-title">
+                        Una experiencia que fusiona arte y tecnología para reconectar al ser humano con la naturaleza.
+                    </h2>
+                    <p class="about-text">
+                        Ecos: Viaje sensorial, es una instalación inmersiva sonora que lleva a los espectadores a transitar por un pasillo serpenteante semi oscuro que se irá iluminando por retroproyecciones a medida que avanzan. Susurros del viento entre los árboles, ríos y cascadas, aves: cada sonido invita a una conexión íntima con un entorno natural, despertando los sentidos y la imaginación.
+                    </p>
+                    <div class="author-card">
+                        <img src="images/autor02.png" alt="Gustavo Correa" class="author-img">
+                        <div class="author-info">
+                            <h4>Gustavo Correa</h4>
+                            <p>Artista multimedia argentino que explora la simbiosis entre arte y tecnología. Su trabajo investiga cómo los dispositivos técnicos pueden amplificar la experiencia artística.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-large">Visuales</h2>
+                <p class="section-subtitle">La composición de la obra fue creada en código e imágenes paisajes naturales tomadas por el autor, quien estuvo a cargo de cada uno de los detalles de estainstalación. </p>
+            </div>
+            <div class="works-grid">
+                <div class="work-item" data-category="Visual">
+                    <div class="work-image">
+                        <img src="images/ecos013.png" alt="El Bosque">
+                        <div class="work-overlay">
+                            <span class="work-category">Visual</span>
+                            <h3 class="work-title">Diseño Visual</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="work-item" data-category="Visual">
+                    <div class="work-image">
+                        <img src="images/Ecos09.png" alt="El Río">
+                        <div class="work-overlay">
+                            <span class="work-category">Visual</span>
+                            <h3 class="work-title">Estructura</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-large">Tecnología</h2>
+                <p class="section-subtitle">La instalación combina diversos medios para crear una experiencia única.</p>
+            </div>
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="service-number">[01]</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Proyección Visual</h3>
+                        <p class="service-desc">Tres proyectores de 6500 lúmenes generan retroproyecciones inmersivas sobre las paredes y techo del túnel serpenteante.</p>
+                    </div>
+                    <div class="service-image">
+                        <img src="images/service-1.jpg" alt="Proyección">
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">[02]</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Sonido Envolvente</h3>
+                        <p class="service-desc">Diez parlantes distribuidos estratégicamente crean un paisaje sonoro tridimensional que responde al movimiento.</p>
+                    </div>
+                    <div class="service-image">
+                        <img src="images/service-2.jpg" alt="Sonido">
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">[03]</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Sensores Interactivos</h3>
+                        <p class="service-desc">Sensores de proximidad detectan la presencia de los visitantes, activando visuales y sonidos de manera única.</p>
+                    </div>
+                    <div class="service-image">
+                        <img src="images/service-3.jpg" alt="Sensores">
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">[04]</div>
+                    <div class="service-content">
+                        <h3 class="service-title">Software Creativo</h3>
+                        <p class="service-desc">Touch Designer y Resolume Arena procesan las visuales, mientras Reaper y Pure Data gestionan el audio interactivo.</p>
+                    </div>
+                    <div class="service-image">
+                        <img src="images/service-4.jpg" alt="Software">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2 class="section-title-large">Preguntas Frecuentes</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cuánto dura la experiencia?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>El recorrido completo tiene una duración aproximada de 15 a 20 minutos, aunque cada visitante puede transitarlo a su propio ritmo.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Hay restricciones de edad?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>La instalación está dirigida al público en general sin restricción de edad, aunque el target ideal es público joven adulto mayor de 16 años.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Es accesible para personas con movilidad reducida?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>El espacio del CCK cuenta con accesibilidad completa. El recorrido serpenteante está diseñado para ser transitado cómodamente.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Se puede visitar en grupo?</span>
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sí, la instalación permite la entrada de grupos pequeños para compartir la experiencia, aunque cada visitante vivirá un recorrido único según su movimiento.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title-large">Experiencias</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">Fue como caminar por un bosque real. Los sonidos, las luces... por un momento olvidé que estaba en el centro de la ciudad.</p>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-1.jpg" alt="Lucía Martínez">
+                        <div>
+                            <h4>Lucía Martínez</h4>
+                            <span>Visitante</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">Como estudiante de arte, me fascinó ver cómo la tecnología puede crear emociones tan profundas. Una obra maestra de la instalación multimedia.</p>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-2.jpg" alt="Tomás Benítez">
+                        <div>
+                            <h4>Tomás Benítez</h4>
+                            <span>Estudiante de Arte</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">"</div>
+                    <p class="testimonial-text">Una experiencia meditativa que me hizo reflexionar sobre nuestra conexión con la naturaleza. Salí renovada.</p>
+                    <div class="testimonial-author">
+                        <img src="images/testimonial-3.jpg" alt="Marina Costa">
+                        <div>
+                            <h4>Marina Costa</h4>
+                            <span>Visitante</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-large">Notas</h2>
+                <p class="section-subtitle">Reflexiones sobre el proceso creativo y la obra.</p>
+            </div>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-1.jpg" alt="Proceso creativo">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Proceso</span>
+                            <span class="blog-date">Mar 2024</span>
+                            <span class="blog-read">5 min</span>
+                        </div>
+                        <h3 class="blog-title">El proceso creativo detrás de ECOS</h3>
+                        <p class="blog-excerpt">Desde los primeros bocetos hasta la instalación final: cómo se construyó un viaje sensorial que conecta al ser humano con la naturaleza.</p>
+                        <a href="#" class="blog-link">Leer Más →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <img src="images/blog-3.png" alt="Montaje">
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-category">Producción</span>
+                            <span class="blog-date">Feb 2024</span>
+                            <span class="blog-read">3 min</span>
+                        </div>
+                        <h3 class="blog-title">Montaje en el CCK</h3>
+                        <p class="blog-excerpt">Un vistazo detrás de escena del montaje de la instalación en el Centro Cultural Kirchner.</p>
+                        <a href="#" class="blog-link">Leer Más →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <h2 class="section-title-large">Visita la Instalación</h2>
+                    <p class="contact-subtitle">Vive la experiencia en el Centro Cultural Kirchner.</p>
+                    <div class="visit-info">
+                        <div class="visit-location">
+                            <h3>Ubicación</h3>
+                            
+                            Centro Cultural Kirchner (CCK) / Palacio Libertad — Sarmiento 151, C1041 CABA<br><br>
+                            <div class="visit-links">
+                                <a class="map-link map-link-secondary" href="https://www.google.com/maps/dir/?api=1&destination=Centro%20Cultural%20Kirchner%20Sarmiento%20151%20CABA" target="_blank" rel="noopener">
+
+                                    
+                                    .   Cómo llegar al CCK   .
+                                </a><br>
+                            </div>
+                        </div><br>
+
+                    <div class="visit-transport">
+                            <h3>Medios de transporte cercanos</h3>
+                            <ul class="transport-list">
+                                <li><strong>Subte:</strong> Estación <em>Correo Central</em> (Línea E) a metros. También cerca: <em>Leandro N. Alem</em> (Línea B) y <em>Plaza de Mayo</em> (Línea A).</li>
+                                <li><strong>Tren:</strong> Terminal <em>Retiro</em> (Mitre / San Martín / Belgrano Norte) a ~10–15 min a pie.</li>
+                                <li><strong>Colectivo:</strong> líneas frecuentes por la zona: 7, 8, 22, 33, 105, 140, 152, 143, 197.</li>
+                            </ul>
+                            <p class="visit-note">Tip: abrí “Cómo llegar” para rutas en tiempo real según tu ubicación.</p>
+                        </div>
+                    </div><br>
+
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nombre *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="type">Tipo de Consulta</label>
+                            <select id="type" name="type">
+                                <option value="">Seleccionar...</option>
+                                <option value="visita">Información de Visita</option>
+                                <option value="prensa">Prensa y Medios</option>
+                                <option value="colaboracion">Colaboración</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="contact-image">
+                    <img src="images/contact.jpg" alt="Centro Cultural Kirchner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span>Cada Sentido Merece Ser Despertado</span>
+                <span>Cada Sentido Merece Ser Despertado</span>
+                <span>Cada Sentido Merece Ser Despertado</span>
+            </div>
+        </div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-nav">
+                    <div class="footer-links">
+                        <a href="#hero">Inicio</a>
+                        <a href="#works">Obra</a>
+                        <a href="#about">Sobre</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/ecosviajesensorial/" target="_blank">| Instagram |</a>
+                        <a href="https://youtube.com" target="_blank">YouTube</a>
+                    </div>
+                </div>
+                <a href="#contact" class="footer-cta">
+                    Visitar
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M7 17L17 7M17 7H7M17 7V17"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Gustavo Correa. Todos los derechos reservados.</p>
+                <p>Arte y Tecnología en armonía</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
